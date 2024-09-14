@@ -29,7 +29,7 @@ body{
             justify-content: start;
             align-items: center;
             gap: 40px;
-            // padding: 16px;
+          
             .for_you, .top_tracks{
                 color: #FFF;
                 font-family: Inter;
@@ -54,7 +54,7 @@ body{
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
-            line-height: 28px; /* 155.556% */
+            line-height: 28px; 
             border: none;
             outline: none;
         }
@@ -73,7 +73,7 @@ body{
             }
         }
         .list_item_container{
-            // display: flex;
+            
             justify-content: space-between;
             align-items: center;
             width: 100%;
@@ -83,7 +83,7 @@ body{
             .list_item{
                 padding: 16px;
                 display: flex;
-                // justify-content: center;
+                
                 align-items: center;
                 gap: 20px;
                 width: 350px;
@@ -104,9 +104,18 @@ body{
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 24px; /* 171.429% */
+                    line-height: 24px; 
                     opacity: 0.6;
                 }
+                .duration {
+                    margin-left: auto;
+                    color: #fff;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 400;
+                    opacity: 0.6;
+                    padding-right: 25px;
+                  }
             }
             .selected{
                     border-radius: 8px;
@@ -117,8 +126,7 @@ body{
     .media-player{
         width: 45%;
         justify-content: center;
-        // padding: 16px;
-        // align-items: center;
+    
         margin: 0 60px;
         .rhap_container{
             background: transparent;
@@ -152,7 +160,7 @@ body{
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 24px; /* 150% */
+                line-height: 24px; 
                 opacity: 0.6;
             }
         }
@@ -160,7 +168,6 @@ body{
             margin: 32px 0 12px 0;
             .cover_art{
                     border-radius: 8px;
-                    // background: url(<path-to-image>), lightgray 50% / cover no-repeat;
                     width: 480px;
                     height: 480px;
             }
@@ -183,7 +190,6 @@ body{
             flex-direction: row;
         }
         .middle{
-        //    display: none;
             width: 100%;
         }
         .media-player{
@@ -200,7 +206,6 @@ body{
             margin: 32px 0 12px 0;
             .cover_art{
                     border-radius: 8px;
-                    // background: url(<path-to-image>), lightgray 50% / cover no-repeat;
                     width: 240px;
                     height: 240px;
             }

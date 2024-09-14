@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+.audio-player-with-navbar {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+  position: relative;
+}
+
+.three-dots-navbar {
+  margin-right: 20px; 
+  display: flex;
+  align-items: center; 
+  position: absolute; 
+  left: 0; 
+}
+
+.three-dots-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.navbar-dropdown {
+  position: absolute;
+  top: 30px; 
+  left: 0; 
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.navbar-dropdown ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.navbar-dropdown ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.navbar-dropdown ul li:hover {
+  background-color: #555;
+}
